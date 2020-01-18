@@ -6,7 +6,7 @@ img: title.jpg
 ---
 
 
-![Placeholder]({{site.baseurl}}/assets/images/art/bracken_and_hake/title.jpg "Large Example Image")
+<img src="{{baseurl}}/assets/images/art/bracken_and_hake/title.jpg">
 
 <strong>Bracken & Hake</strong> - A book by Lewis Bentley about our travels wild camping around Cornwall.
 
