@@ -9,6 +9,7 @@ permalink:        pretty
 title:            William Jones
 tagline:          'Lorem ipsum'
 description:      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac purus massa. Nulla vel elit feugiat, rhoncus diam sed, varius diam. Donec eleifend pretium nibh.'
+base_url:         'banana'
 
 author:
   name:           'Lewis Bentley'

@@ -2,11 +2,10 @@
 layout: post
 title: BRACKEN & HAKE__BOOK__2017
 date: 6 February 2016
-img: title.jpg
 ---
 
 
-<img src="{{baseurl}}/assets/images/art/bracken_and_hake/title.jpg">
+<img src="{{site.baseurl}}/assets/images/art/bracken_and_hake/title.jpg">
 
 <strong>Bracken & Hake</strong> - A book by Lewis Bentley about our travels wild camping around Cornwall.
 
@@ -22,7 +21,7 @@ Illustrations by Shiukai Alfie
 
 {% for image in site.static_files %}
   {% if image.path contains 'assets/images/art/bracken_and_hake/img' %}
-  <img src="{{site.baseurl}}/{{ image.path }}" alt="">
+  <img src="{{ image.path }}" alt="">
   {% endif %}
 {% endfor %}
 

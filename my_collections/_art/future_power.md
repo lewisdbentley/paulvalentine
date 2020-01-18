@@ -5,8 +5,7 @@ date: 14th-17th February 2018
 ---
 
 
-![Placeholder]({{site.url}}/assets/images/art/future_power/title.jpg "Large Example Image")
-
+<img src="{{site.url}}/assets/images/art/future_power/title.jpg">
 
 14th-17th February 2018 my work was chosen to be displayed in the group exhibition:
 

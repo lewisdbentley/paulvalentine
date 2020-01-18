@@ -8,7 +8,7 @@ title: Art
   {% for entry in site.art %}
   <div class="card">
     <h2>
-      <a href="{{ entry.url }}">
+      <a href="{{ entry.url | prepend: site.baseurl }}">
         {{ entry.title }}
       </a>
     </h2>
