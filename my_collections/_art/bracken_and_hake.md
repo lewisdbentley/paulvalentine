@@ -6,7 +6,7 @@ img: title.jpg
 ---
 
 
-![Placeholder]({{site.url}}/assets/images/art/bracken_and_hake/title.jpg "Large Example Image")
+![Placeholder]({{site.baseurl}}/assets/images/art/bracken_and_hake/title.jpg "Large Example Image")
 
 <strong>Bracken & Hake</strong> - A book by Lewis Bentley about our travels wild camping around Cornwall.
 
@@ -22,7 +22,7 @@ Illustrations by Shiukai Alfie
 
 {% for image in site.static_files %}
   {% if image.path contains 'assets/images/art/bracken_and_hake/img' %}
-  <img src="{{ image.path }}" alt="">
+  <img src="{{site.baseurl}}/{{ image.path }}" alt="">
   {% endif %}
 {% endfor %}
 
