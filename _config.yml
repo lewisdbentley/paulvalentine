@@ -19,9 +19,6 @@ paginate:         5
 # Custom vars
 version:          2.1.0
 
-github:
-  repo:           'will_jones'
-
 plugins:
   - jekyll-paginate
   - jekyll-gist
