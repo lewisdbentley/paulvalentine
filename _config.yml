@@ -9,7 +9,7 @@ permalink:        pretty
 title:            William Jones
 tagline:          'Lorem ipsum'
 description:      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac purus massa. Nulla vel elit feugiat, rhoncus diam sed, varius diam. Donec eleifend pretium nibh.'
-url:              lewisdbentley.github.io
+url:              ''
 baseurl:          'will_jones'
 
 author:
@@ -22,7 +22,7 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/lewisdbentley/will_jones/
+  repo:           ''
 
 plugins:
   - jekyll-paginate
