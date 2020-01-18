@@ -1,21 +1,20 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+title:            William Jones
+tagline:          'Lorem ipsum'
+description:      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac purus massa. Nulla vel elit feugiat, rhoncus diam sed, varius diam. Donec eleifend pretium nibh.'
+url:              lewisdbentley.github.io
+baseurl:          'will_jones'
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Lewis Bentley'
+  url:            https://github.com/lewisdbentley
 
 paginate:         5
 
@@ -23,4 +22,18 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/lewisdbentley/will_jones
+
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+
+# Collections
+
+collections:
+  art:
+    output: true
+  music:
+    output: true
+
+collections_dir: my_collections

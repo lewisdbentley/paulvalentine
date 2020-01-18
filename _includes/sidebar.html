@@ -9,8 +9,10 @@
       <p class="lead">{{ site.description }}</p>
     </div>
 
+    <a href="/"><img src="{{ site.url }}/assets/images/sidebar-img.png"></a>
+
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <!-- <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a> -->
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -26,11 +28,13 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      <a class="sidebar-nav-item" href="#">life drawing</a>
+      <a class="sidebar-nav-item" href="#">events</a>
+      <a class="sidebar-nav-item" href="#">about</a>
+      <a class="sidebar-nav-item" href="#">photography</a>
+      <a class="sidebar-nav-item" href="#">printing</a>
+      <a class="sidebar-nav-item" href="#">shop</a>
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
