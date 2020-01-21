@@ -5,7 +5,7 @@ date: 2015-5-06
 ---
 
 
-![Placeholder]({{site.url}}/assets/images/music/tha_dots_lab/title.jpg "Large Example Image")
+<img src="{{site.baseurl}}/assets/images/music/tha_dots_lab/title.jpg">
 
 Debut release from producer Tha Dots Lab - “Something That Way”
 

@@ -21,7 +21,7 @@ Illustrations by Shiukai Alfie
 
 {% for image in site.static_files %}
   {% if image.path contains 'assets/images/art/bracken_and_hake/img' %}
-  <img src="{{ image.path }}" alt="">
+  <img src="{{ image.path | prepend: site.baseurl }}" alt="">
   {% endif %}
 {% endfor %}
 

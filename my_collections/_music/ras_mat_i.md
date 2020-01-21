@@ -5,7 +5,8 @@ date: 2014-12-06
 ---
 
 
-![Placeholder]({{site.url}}/assets/images/music/ras_mat_i/title.jpg "Large Example Image")
+
+<img src="{{site.baseurl}}/assets/images/music/ras_mat_i/title.jpg">
 
 Debut 12″ single from Italian Reggae singer Ras Mat-I and UK producers Concrete Youth.
 

@@ -5,7 +5,7 @@ date: 2016-12-06
 ---
 
 
-![Placeholder]({{site.url}}/assets/images/music/d'vo/title.jpg "Large Example Image")
+<img src="{{site.baseurl}}/assets/images/music/d'vo/title.jpg">
 
 Compilation Cassette tape from UK producer D’vo
 

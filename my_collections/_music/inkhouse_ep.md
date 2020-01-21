@@ -5,7 +5,7 @@ date: 2013-12-05
 ---
 
 
-![Placeholder]({{site.url}}/assets/images/music/inkhouse_ep/title.jpg "Large Example Image")
+<img src="{{site.baseurl}}/assets/images/music/inkhouse_ep/title.jpg">
 
 https://soundcloud.com/inkhouse/sets/inkhouse
 
