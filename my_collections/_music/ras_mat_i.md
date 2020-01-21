@@ -22,4 +22,4 @@ Available from
 
 “Concrete Youth (uk) meet Ras-Mat-I (it) with a new 12" available via Blue Ribbon Records Riddim recorded mixed and mastered @ the Lion’s Den (uk)Vocals recorded at M2 Studio’s (it)”
 
-![Placeholder]({{site.url}}/assets/images/music/ras_mat_i/img2.jpg "Large Example Image")
+<img src="{{site.baseurl}}/assets/images/music/ras_mat_i/img2.jpg">

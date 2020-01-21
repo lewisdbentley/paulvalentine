@@ -26,7 +26,7 @@ Art Director/ Campaign Manager:
 
 {% for image in site.static_files %}
   {% if image.path contains 'assets/images/music/THA_DOTS_LAB/img' %}
-  <img src="{{ image.path }}" alt="">
+  <img src="{{ image.path | prepend: site.baseurl }}" alt="">
   {% endif %}
 {% endfor %}
 

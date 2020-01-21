@@ -72,3 +72,7 @@
 .index-img {
   flex: 0 1 80px;
 }
+
+ul {
+  padding-inline-start: 0px;
+}

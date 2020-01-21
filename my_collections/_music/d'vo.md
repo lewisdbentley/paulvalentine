@@ -9,7 +9,7 @@ date: 2016-12-06
 
 Compilation Cassette tape from UK producer D’vo
 
-* * https://whosound.bandcamp.com/album/2-2-22-vol-1-4
+* https://whosound.bandcamp.com/album/2-2-22-vol-1-4
 
 Art Director / Promoter / Producer
 
@@ -21,7 +21,7 @@ Art Director / Promoter / Producer
 
 {% for image in site.static_files %}
   {% if image.path contains 'assets/images/music/d'vo/img %}
-  <img src="{{ image.path }}" alt="">
+  <img src="{{ image.path | prepend: site.baseurl }}" alt="">
   {% endif %}
 {% endfor %}
 
