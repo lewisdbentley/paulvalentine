@@ -49,13 +49,8 @@ body {
 
 html {
   font-family: "Roboto Slab", serif;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
-}
-@media (min-width: 38em) {
-  html {
-/*    font-size: 26px;*/
-  }
 }
 
 body {

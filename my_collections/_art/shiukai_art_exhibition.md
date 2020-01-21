@@ -18,7 +18,7 @@ Solo art exhibition displaying works by Shiukai Alfie @ newgatestudio
 
 {% for image in site.static_files %}
   {% if image.path contains 'assets/images/art/shiukai_art_exhibition/img' %}
-  <img src="{{ image.path }}" alt="">
+  <img src="{{ image.path | prepend: site.baseurl }}" alt="">
   {% endif %}
 {% endfor %}
 

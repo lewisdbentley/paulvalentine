@@ -14,7 +14,7 @@ date: 14th-17th February 2018
 
 {% for image in site.static_files %}
   {% if image.path contains 'assets/images/art/future_power/img' %}
-  <img src="{{ image.path }}" alt="">
+  <img src="{{ image.path | prepend: site.baseurl }}" alt="">
   {% endif %}
 {% endfor %}
 

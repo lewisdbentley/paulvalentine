@@ -16,6 +16,21 @@
     display: block;
     max-width: 100%;
   }
+  .post {
+    margin-left: 15%;
+  }
+  /*#*/
+  .content .post  {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .index-imgs a:nth-child(n+5) {
+  margin-top: 12px;
+  }
+
+.index-imgs a:nth-child(-n+4) {
+  margin-bottom: 12px;
+  }
 }
 
 .sidebar-nav-item:before {
@@ -73,6 +88,25 @@
   flex: 0 1 80px;
 }
 
-ul {
+.page ul {
   padding-inline-start: 0px;
+  margin-bottom: 0;
+}
+
+.page {
+  margin-top: 2rem;
+}
+
+.post ul li img {
+  margin-left: -40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div.related {
+  display: none;
+}
+
+.lead {
+  margin-bottom: 0.5rem;
 }
